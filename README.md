@@ -4,7 +4,7 @@ Small project to send files encoded and obfuscated over ICMP as a secondary mean
 
 It's required to have root access in the victim machine.
 
-The obfuscation method can be changed. Just edit *obfuscador.py* and *deObfuscador.py* to something that fits your needs.
+The obfuscation method can be changed. Just edit *ofuscador.py* and *deOfuscador.py* to something that fits your needs.
 
 Steps:
 ```
