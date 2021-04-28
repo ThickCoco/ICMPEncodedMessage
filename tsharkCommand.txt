@@ -1,1 +1,1 @@
-sudo tshark -i lo -f 'icmp[0] == 8' -e data -Tjson > tout.json
+sudo tshark -i <interface> -f 'icmp[0] == 8' -e data -Tjson > tout.json
