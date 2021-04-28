@@ -1,0 +1,1 @@
+sudo tshark -i lo -f 'icmp[0] == 8' -e data -Tjson > tout.json
